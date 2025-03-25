@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+<!--  Это должно быть в main, пропустили элементы header        -->
         <h1>Your everyday tasks, automated.</h1>
         <p>Whirl lets you design and streamline your everyday tasks and workflows in just a few clicks.</p>
         <nav>
@@ -14,7 +15,7 @@
             <a href="#">Learn more</a>
         </nav>
     </header>
-
+<!-- Открываем тег main, весь контент на страницы кроме header и footer должен быть в main -->
     <section>
         <h2>Trusted by 50,000+ companies</h2>
         <ul>
@@ -24,7 +25,7 @@
             <li>Carded</li>
         </ul>
     </section>
-
+<!-- 29-42 строки это одна секция, а внутри секции их уже можно поделить на три блока -->
     <section>
         <h2>Fast. Really fast.</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -39,7 +40,7 @@
         <h2>Safe and secure.</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
-   
+<!--    На странице может быть только один header, объедините 44-56 строки в одну секцию -->
     <header>
         <h1>We will take care of everything, so you can get back to relaxing.</h1>
     </header>
@@ -53,11 +54,13 @@
             <li><input type="checkbox"> Plenty of options</li>
         </ul>
     </section>
-
+<!--  убираем hr -->
     <hr>
 
     <section>
         <h2>What's Whirl all about?</h2>
+
+<!-- All on one place это подзаголовок, а не параграф. 64-65 строки это один блок, 67-68 второй блок, 70-71 третий. Используйте div для каждого блока -->
         <p>All on one place.</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
@@ -67,11 +70,13 @@
         <h3>Safe and secure.</h3>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
+
+<!-- та же проблема, header только один на странице -->
     <header>
         <h1>Set, forget, and then track.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </header>
-
+<!-- 80-103 это одна секция, внутри секции разделяем блоки с помощью div -->
     <section>
         <h2>Your tasks, automated.</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -102,6 +107,7 @@
         <h2>✓ No lock-ins</h2>
         <h2>✓ You own the shares</h2>
     </section>
+<!-- footer должен быть только один на странице и самым последним идти -->
 <footer>
         <button>Book a Demo</button>
     </footer>
@@ -140,6 +146,7 @@
         <p>Whirl</p>
         <p>Built by Nicolai Bahn. Powered by Webflow.</p>
         <nav>
+<!--      info и admin это два разных списка        -->
             <ul>
                 <li>Info</li>
                 <li>Features</li>
