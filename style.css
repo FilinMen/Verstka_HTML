@@ -162,7 +162,7 @@ h2, h3 {
     display: flex;
     align-items: end;
     width: 730px;
-}
+} 
 .about-block-item:nth-child(2) {
     margin: 0 32px;
 }
@@ -372,30 +372,66 @@ h2, h3 {
     color: #0070A0;
 }
 
-.girl2{
+
+
+ .girl2{
     display: grid;
-    grid-template-columns: repeat(4, 355px);
-    grid-template-rows: repeat(1, 500px);
-    column-gap: 32px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, );
+    column-gap: 16px;
     grid-template-areas:
       "content 👾 good footer ";
   }
   
-  .guss {
+  .guss1 {
     grid-area: content;
-
+    height: 216px;
+    width: 432px;
   }
-  
+
   .aga6 {
     grid-area: 👾;
-
+    height: 216px;
+    width: 216px;
   }
   
   .aga7 {
     grid-area: good;
-
+    height: 216px;
+    width: 216px;
   }
   .aga8{
     grid-area: footer;
+    height: 216px;
+    width: 216px;
   }
 
+.gggoo{
+    height: 72px;
+    width: 180px;
+}
+.asas{
+    font-family: "Inter", sans-serif;
+    color: #626A72;
+} 
+.barabul{
+    margin-top: 64px;
+}
+.booom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.god{
+    margin-left: 20px;
+}
+.ffffss{
+    line-height: 0.19;
+}
+.input{
+    color: #212529;
+    opacity: 0.4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
