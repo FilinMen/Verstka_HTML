@@ -434,8 +434,12 @@ h2, h3 {
     border-top: none;
     border-left: none;
     border-right: none;
+    padding: 17px 0 7px 15px;
   }
 .ffdd{
     width: 55px;
     height: 55px;
+}
+.strel span::after{
+    content: url(assets/arrow.svg)
 }
